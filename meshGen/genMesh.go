@@ -4,7 +4,7 @@ import (
 	"fmt"
 )
 
-func GenUzi() ([]Vertex, []Triangle) {
+func GenFigure() ([]Vertex, []Triangle) {
 	var r float64 = 30
 	var segments int = 50
 	var height float64 = 60

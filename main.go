@@ -10,7 +10,7 @@ import (
 )
 
 func main() {
-	vs, ts := meshGen.GenUzi()
+	vs, ts := meshGen.GenFigure()
 
 	//vs, ts := meshGen.GenMesh()
 	create3mf((meshGen.Body(vs, ts)))
